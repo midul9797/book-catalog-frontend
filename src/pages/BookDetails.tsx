@@ -9,10 +9,9 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { useBookQuery, useLazyBooksQuery } from "@/redux/api/booksApi";
+import { useBookQuery } from "@/redux/api/booksApi";
 import {
   useAddToWishListMutation,
-  useLazyWishListQuery,
   useWishListQuery,
 } from "@/redux/api/wishListApi";
 import { useAppSelector } from "@/redux/hook";

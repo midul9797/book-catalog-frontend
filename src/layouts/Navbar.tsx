@@ -1,6 +1,5 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
-import * as Dialog from "@radix-ui/react-dialog";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -9,7 +8,6 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { Label } from "@/components/ui/label";
 import { useAppDispatch, useAppSelector } from "@/redux/hook";
 import { setUserInfo } from "@/redux/slice/userSlice";
 import { getUserInfo, isLoggedIn, removeUserInfo } from "@/service/authService";
@@ -24,9 +22,9 @@ export default function Navbar() {
     setLoggedIn(isLoggedIn());
   }, []);
   const navigate = useNavigate();
+
   const dispatch = useAppDispatch();
   const user = useAppSelector((state) => state.user) as any;
-  console.log(user);
   const data = getUserInfo();
 
   dispatch(
@@ -41,25 +39,23 @@ export default function Navbar() {
     removeUserInfo("accessToken");
     dispatch(
       setUserInfo({
-        email: null,
-        name: null,
-        id: null,
+        email: "",
+        name: "",
+        id: "",
       })
     );
-    setLoggedIn(false);
-    toast.success("LogOut Successful!", {
-      position: "top-right",
-      autoClose: 5000,
-      hideProgressBar: false,
+    navigate(0);
+    navigate("/");
+    toast.success("Book Added Successfully!", {
       closeOnClick: true,
       pauseOnHover: true,
       draggable: true,
       progress: undefined,
       theme: "dark",
     });
-
-    navigate("/");
+    setLoggedIn(false);
   };
+
   return (
     <nav className="w-full h-16 fixed top backdrop-blur-lg z-10">
       <div className="h-full w-full bg-white/60">
@@ -130,7 +126,12 @@ export default function Navbar() {
                           onClick={() => logOut()}
                           variant="ghost"
                           size="sm"
-                          style={{ padding: 0, color: "red" }}
+                          style={{
+                            padding: 0,
+                            color: "red",
+                            width: "100%",
+                            justifyContent: "flex-start",
+                          }}
                         >
                           Log Out
                         </Button>

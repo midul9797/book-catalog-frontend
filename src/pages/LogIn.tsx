@@ -29,6 +29,14 @@ export default function LogIn() {
         theme: "dark",
       });
       navigate(from);
+    } else {
+      toast.error("Wrong Email or Password!", {
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "dark",
+      });
     }
   };
   return (

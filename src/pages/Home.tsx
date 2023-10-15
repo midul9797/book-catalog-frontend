@@ -1,7 +1,5 @@
 import { Button } from "@/components/ui/button";
 
-import hero from "@/assets/images/hero.png";
-
 import BookCard from "@/components/BookCard";
 import { useBooksQuery } from "@/redux/api/booksApi";
 import { IBook } from "@/types";
@@ -26,9 +24,6 @@ export default function Home() {
         </div>
       </div>
       <div className="mb-5">
-        <div>
-          <img className="mx-auto" src={hero} alt="" />
-        </div>
         <div className="flex flex-col items-center justify-center">
           <h1 className="text-5xl font-black text-primary uppercase m-10">
             Top 12 Recent Books

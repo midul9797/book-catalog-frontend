@@ -25,6 +25,14 @@ export default function SignUp() {
         theme: "dark",
       });
       navigate("/");
+    } else {
+      toast.error("Something went wrong. Provide Unique mobile and email", {
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "dark",
+      });
     }
   };
   return (
