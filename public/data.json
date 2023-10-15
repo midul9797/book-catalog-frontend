@@ -1,0 +1,225 @@
+[
+  {
+      "_id": "1",
+      "title": "The Daily Stoic",
+      "author": "Ryan Holiday",
+      "genre": "Self-help",
+      "publication_date": "2016-10-18",
+      "image": "https://www.junkybooks.com/administrator/bookimages/64b13492db9503.34929636.jpg"
+  },
+  {
+      "_id": "2",
+      "title": "Becoming",
+      "author": "Michelle Obama",
+      "genre": "Biography",
+      "publication_date": "2018-11-13",
+      "image": "https://www.junkybooks.com/administrator/bookimages/643f18ed391400.57097696.jpg"
+  },
+  {
+      "_id": "3",
+      "title": "Goliath",
+      "author": "Richard Turner",
+      "genre": "Thriller",
+      "publication_date": "2013-07-12",
+      "image": "https://www.junkybooks.com/administrator/bookimages/62bb36d8da8cf9.77555192.jpeg"
+  },
+  {
+      "_id": "4",
+      "title": "New Moon",
+      "image": "https://www.junkybooks.com/administrator/bookimages/63975905ae5a50.99123478.jpg",
+      "genre": "Horror Fiction",
+      "author": "Stephenie Meyer",
+      "publication_date": "2006-08-21"
+  },
+  {
+      "_id": "5",
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "genre": "Fiction",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/To_Kill_a_Mockingbird_%28first_edition_cover%29.jpg/220px-To_Kill_a_Mockingbird_%28first_edition_cover%29.jpg",
+      "publication_date": "1960-07-11"
+  },
+  {
+      "_id": "6",
+      "title": "1984",
+      "author": "George Orwell",
+      "genre": "Dystopian Fiction",
+      "image": "https://www.prscshop.co.uk/cdn/shop/products/1984image-1500square.jpg?v=1611171549",
+      "publication_date": "1949-06-08"
+  },
+  {
+      "_id": "7",
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "genre": "Fantasy",
+      "image": "https://res.cloudinary.com/bloomsbury-atlas/image/upload/w_360,c_scale/jackets/9781408855652.jpg",
+      "publication_date": "1997-06-26"
+  },
+  {
+      "_id": "8",
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "genre": "Classic",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/The_Great_Gatsby_Cover_1925_Retouched.jpg/220px-The_Great_Gatsby_Cover_1925_Retouched.jpg",
+      "publication_date": "1925-04-10"
+  },
+  {
+      "_id": "9",
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "genre": "Romance",
+      "image": "https://www.gutenberg.org/files/1342/1342-h/images/cover.jpg",
+      "publication_date": "1813-01-28"
+  },
+  {
+      "_id": "10",
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "genre": "Coming-of-age Fiction",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/The_Catcher_in_the_Rye_%281951%2C_first_edition_cover%29.jpg/220px-The_Catcher_in_the_Rye_%281951%2C_first_edition_cover%29.jpg",
+      "publication_date": "1951-07-16"
+  },
+  {
+      "_id": "11",
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "genre": "Fantasy",
+      "image": "https://www.gleebooks.com.au/wp-content/uploads/9780261103283-15.jpg",
+      "publication_date": "1937-09-21"
+  },
+  {
+      "_id": "12",
+      "title": "Animal Farm",
+      "author": "George Orwell",
+      "genre": "Satire",
+      "image": "https://m.media-amazon.com/images/I/91LUbAcpACL._SY425_.jpg",
+      "publication_date": "1945-08-17"
+  },
+  {
+      "_id": "13",
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "author": "J.R.R. Tolkien",
+      "genre": "Fantasy",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8e/The_Fellowship_of_the_Ring_cover.gif/220px-The_Fellowship_of_the_Ring_cover.gif",
+      "publication_date": "1954-07-29"
+  },
+  {
+      "_id": "14",
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "genre": "Dystopian Fiction",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/62/BraveNewWorld_FirstEdition.jpg/220px-BraveNewWorld_FirstEdition.jpg",
+      "publication_date": "1932-06-15"
+  },
+  {
+      "_id": "15",
+      "title": "The Da Vinci Code",
+      "author": "Dan Brown",
+      "genre": "Mystery",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/DaVinciCode.jpg/220px-DaVinciCode.jpg",
+      "publication_date": "2003-03-18"
+  },
+  {
+      "_id": "16",
+      "title": "Fahrenheit 451",
+      "author": "Ray Bradbury",
+      "genre": "Dystopian Fiction",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/db/Fahrenheit_451_1st_ed_cover.jpg/220px-Fahrenheit_451_1st_ed_cover.jpg",
+      "publication_date": "1953-10-19"
+  },
+  {
+      "_id": "17",
+      "title": "Gone with the Wind",
+      "author": "Margaret Mitchell",
+      "genre": "Historical Fiction",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Gone_with_the_Wind_cover.jpg/220px-Gone_with_the_Wind_cover.jpg",
+      "publication_date": "1936-06-30"
+  },
+  {
+      "_id": "18",
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "genre": "Adventure Fiction",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/TheAlchemist.jpg/220px-TheAlchemist.jpg",
+      "publication_date": "1988-04-25"
+  },
+  {
+      "_id": "19",
+      "title": "The Adventures of Tom Sawyer",
+      "author": "Mark Twain",
+      "genre": "Adventure Fiction",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Tom_Sawyer_1876_frontispiece.jpg/220px-Tom_Sawyer_1876_frontispiece.jpg",
+      "publication_date": "1876-12-01"
+  },
+  {
+      "_id": "20",
+      "title": "Jane Eyre",
+      "author": "Charlotte Brontë",
+      "genre": "Gothic Fiction",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Jane_Eyre_title_page.jpg/220px-Jane_Eyre_title_page.jpg",
+      "publication_date": "1847-10-16"
+  },
+  {
+      "_id": "21",
+      "title": "The Book Thief",
+      "author": "Markus Zusak",
+      "genre": "Historical Fiction",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/The_Book_Thief_by_Markus_Zusak_book_cover.jpg/220px-The_Book_Thief_by_Markus_Zusak_book_cover.jpg",
+      "publication_date": "2005-03-14"
+  },
+  {
+      "_id": "22",
+      "title": "Moby-Dick",
+      "author": "Herman Melville",
+      "genre": "Adventure Fiction",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Moby-Dick_FE_title_page.jpg/220px-Moby-Dick_FE_title_page.jpg",
+      "publication_date": "1851-10-18"
+  },
+  {
+      "_id": "23",
+      "title": "The Hunger Games",
+      "author": "Suzanne Collins",
+      "genre": "Science Fiction",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/dc/The_Hunger_Games.jpg/220px-The_Hunger_Games.jpg",
+      "publication_date": "2008-09-14"
+  },
+  {
+      "_id": "24",
+      "title": "Little Women",
+      "author": "Louisa May Alcott",
+      "genre": "Classic",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Houghton_AC85.A%E2%84%93194L.1869_pt.2aa_-_Little_Women%2C_title.jpg/200px-Houghton_AC85.A%E2%84%93194L.1869_pt.2aa_-_Little_Women%2C_title.jpg",
+      "publication_date": "1868-09-30"
+  },
+  {
+      "_id": "25",
+      "title": "The Kite Runner",
+      "author": "Khaled Hosseini",
+      "genre": "Historical Fiction",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/62/Kite_runner.jpg/220px-Kite_runner.jpg",
+      "publication_date": "2003-05-29"
+  },
+  {
+      "_id": "26",
+      "title": "Anna Karenina",
+      "author": "Leo Tolstoy",
+      "genre": "Classic",
+      "image": "https://th.bing.com/th/id/R.0e7db3559d0a734780085ea734042ebf?rik=5iKdd5IC%2f2zMPA&riu=http%3a%2f%2fimediaworld.uk%2fwp-content%2fuploads%2f2016%2f01%2f9781909175112-600x914.jpg&ehk=9%2f5hf6jAmG6CWNSrbehTQWYWGpDJYuY8wfQXjVfGLEQ%3d&risl=&pid=ImgRaw&r=0",
+      "publication_date": "1877-12-10"
+  },
+  {
+      "_id": "37",
+      "title": "The Fault in Our Stars",
+      "author": "John Green",
+      "genre": "Young Adult Fiction",
+      "image": "https://hc16publishingau.files.wordpress.com/2019/09/fault-in-our-stars.jpg?w=1350",
+      "publication_date": "2012-01-10"
+  },
+  {
+      "_id": "46",
+      "title": "The Maze Runner",
+      "author": "James Dashner",
+      "genre": "Science Fiction",
+      "image": "https://th.bing.com/th/id/OIP.Ia_XSZZExmGGQi9IZfAcqgHaLH?pid=ImgDet&rs=1",
+      "publication_date": "2009-10-06"
+  }]
